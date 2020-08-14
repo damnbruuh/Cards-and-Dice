@@ -1,0 +1,15 @@
+commands:
+  rtd:
+    description: This generates a random roll of two dies.
+    usage: /rtd
+    permission: rtd.rtd
+  gac:
+    description: This pulls a random card out of 53 cards in a deck.
+    usage: /gac
+    permission: rtd.gac
+
+name: rtd
+version: 1.0.0
+author: damnbruuh
+main: com.robert.rtd.Main
+api-version: 1.16
