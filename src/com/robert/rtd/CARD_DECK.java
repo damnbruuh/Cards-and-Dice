@@ -3,7 +3,7 @@ package com.robert.rtd;
 public enum CARD_DECK {
 
     // This enum was developed prior to my understanding of enum ordinals and enum sets. In retrospect,
-    // I would have made this enum as an enum set and use ordinals instead of a constant integer to prevent "brittleness" of my code.
+    // I would have made this enum as an enum set and use ordinals instead of a constant integer to prevent bad code.
     // With that being said, as the old adage goes, "if it ain't broke, don't fix it"
 
     BLACK_CLUBS_ACE(1),
